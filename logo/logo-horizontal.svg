@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 176" width="1120" height="352">
+  <title>Forragem Perene - verde na seca</title>
+  <style>@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&amp;family=Lora:ital,wght@1,600&amp;display=swap');
+    .nm{font-family:'Alfa Slab One',Georgia,serif}.sl{font-family:Lora,Georgia,serif;font-style:italic;font-weight:600}</style>
+  <defs>
+    <linearGradient id="fpg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#6CC04F"/><stop offset=".65" stop-color="#2E7D32"/></linearGradient>
+    <path id="fpleaf" d="M150 20 C216 50 254 118 238 184 C224 238 184 266 150 278 C116 266 76 238 62 184 C46 118 84 50 150 20 Z"/>
+    <clipPath id="fpclip"><use href="#fpleaf"/></clipPath>
+    <path id="fpray" d="M219 22 L233 22 L226 2 Z"/>
+  </defs>
+  <g transform="scale(0.58667)">
+    <g fill="#E39B1E">
+      <use href="#fpray"/><use href="#fpray" transform="rotate(30 226 70)"/><use href="#fpray" transform="rotate(60 226 70)"/>
+      <use href="#fpray" transform="rotate(90 226 70)"/><use href="#fpray" transform="rotate(120 226 70)"/>
+      <use href="#fpray" transform="rotate(-30 226 70)"/><use href="#fpray" transform="rotate(-60 226 70)"/>
+      <use href="#fpray" transform="rotate(-90 226 70)"/>
+      <circle cx="226" cy="70" r="40"/>
+    </g>
+    <g transform="rotate(-6 150 150)">
+      <g clip-path="url(#fpclip)">
+        <rect width="300" height="300" fill="url(#fpg)"/>
+        <path d="M150 0 H300 V300 H150 Z" fill="#123B1A" opacity=".2"/>
+        <g stroke="#F3E3BF" stroke-linecap="round" fill="none">
+          <path d="M150 34 Q145 110 150 186" stroke-width="6"/>
+          <path d="M148 76 Q126 66 108 50 M148 76 Q172 66 192 52 M147 110 Q120 102 94 86 M147 110 Q178 102 206 88 M148 146 Q122 140 86 128 M148 146 Q178 140 214 126" stroke-width="3.5"/>
+        </g>
+        <path d="M0 184 C50 170 95 198 150 182 C205 166 250 194 300 178 V300 H0 Z" fill="#C0702F"/>
+        <path d="M0 226 C60 214 110 238 150 228 C200 216 250 236 300 224 V300 H0 Z" fill="#8A4B1F"/>
+        <path d="M66 204 L94 212 L90 234 L66 242 M94 212 L126 206 L138 228 L116 246 L90 234 M138 228 L170 222 L184 242 M170 222 L176 198 M184 242 L212 234 L222 208 M212 234 L228 258 M116 246 L124 272 M66 242 L78 268 M184 242 L176 270" stroke="#4E270D" stroke-width="3" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+        <g stroke="#F3E3BF" stroke-linecap="round" fill="none" stroke-width="3.5" opacity=".95">
+          <path d="M150 186 C150 210 146 232 150 266"/><path d="M150 204 C140 214 128 222 114 236"/>
+          <path d="M150 218 C162 228 172 240 186 252"/><path d="M148 240 C140 248 134 256 128 268"/>
+        </g>
+        <g fill="#2E7D32" stroke="#123B1A" stroke-width="1.5" stroke-linejoin="round">
+          <path d="M70 182 l-8 -20 l8 9 l4 -22 l5 22 l8 -9 l-7 20 Z"/><path d="M112 192 l-7 -16 l7 7 l3 -18 l4 18 l7 -7 l-6 16 Z"/>
+          <path d="M196 178 l-7 -16 l7 7 l3 -18 l4 18 l7 -7 l-6 16 Z"/><path d="M238 184 l-8 -20 l8 9 l4 -22 l5 22 l8 -9 l-7 20 Z"/>
+        </g>
+      </g>
+      <use href="#fpleaf" fill="none" stroke="#123B1A" stroke-width="9" stroke-linejoin="round"/>
+      <path d="M150 278 Q154 290 166 296" stroke="#123B1A" stroke-width="7" fill="none" stroke-linecap="round"/>
+    </g>
+  </g>
+  <text class="nm" fill="#1E4A26" x="372" y="70" font-size="54" text-anchor="middle" textLength="364" lengthAdjust="spacingAndGlyphs">FORRAGEM</text>
+  <text class="nm" fill="#9A4F1C" x="372" y="128" font-size="54" text-anchor="middle" textLength="364" lengthAdjust="spacing">PERENE</text>
+  <line x1="192" y1="157" x2="270" y2="157" stroke="#C0702F" stroke-width="3" stroke-linecap="round"/>
+  <line x1="474" y1="157" x2="552" y2="157" stroke="#C0702F" stroke-width="3" stroke-linecap="round"/>
+  <text class="sl" fill="#2E7D32" x="372" y="166" font-size="28" text-anchor="middle">verde na seca</text>
+</svg>
